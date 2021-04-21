@@ -1,0 +1,21 @@
+Project Proposal:
+
+Building a data pipeline for Twitch.tv streaming data.
+
+Question/need:
+
+I plan on using the Twitch APIs to acquire either game streaming data, or streamer account data to build a pipeline that will be beneficial for analytics. For game stream data, I can create a system to show the number of viewers and/or number of times a game has been streamed over time. If I choose to focus on streamer data, I can show their viewership/subscriber data trends over time. Additionally, I can show the stream-time:new-viewers ratio and analyze this relationship. I plan to visualize these with graphs. This can benefit Twitch streamers by providing analytics to grow their channel.
+
+Data Description:
+
+As mentioned above, I plan to use Twitch APIs to request the data.
+For game data, an individual sample of data would be a selected title. The expected features would be peak number of views at time intervals throughout the day.
+For streamer data, an individual sample would be a streamer channel. The expected features would be peak number of viewers at time intervals,  games streamed, subscriber count, viewer count.
+
+Tools:
+
+I plan to use Google Cloud, API calls, and SQLite DB Browser. 
+
+MVP Goal:
+I plan to create a product that will pull Twitch data once a day and transpose the data into a structured database. The goal is to structure the database to be able to run queries to find statistical information.
+Time permitting, I would like to build an interface/app that will allow a user to search and view the visualized data for either a game, or streamer channel. I would like to be able to show a chart with interactive buttons to show 1day/5day/1mo/6mo/1y view trends (similar to stock charts).

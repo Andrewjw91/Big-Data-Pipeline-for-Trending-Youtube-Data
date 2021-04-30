@@ -14,7 +14,7 @@ The motivation of this project was to deploy an interactive web application that
 
 The dataset contains 500,000+ (and counting) trending YouTube Videos from the past 9 months. The Kaggle dataset is updated daily with the 200 Trending Videos for each country. The countries include India, USA, Great Britain, Germany, Canada, France, Russia, Brazil, Mexico, South Korea, and, Japan.
 
-Each country's data is stored as a separate table within a relational SQL database. A few feature highlights include channel title, views, category, likes and dislikes. 
+Each country's data is stored as a separate table within a relational SQL database. A few feature highlights include channel title, views, category, likes and dislikes. The video description field can include up to 5000 (1-2 pages!) characters and does not follow any categorical or conventional format. Removing the following columns: description, comments disabled, ratings disabled, resulted in a 70% filesize reduction to the database.
 
 ## Algorithms
 

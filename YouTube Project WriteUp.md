@@ -8,7 +8,7 @@ The goal of this project was to engineer a storage and processing pipeline using
 
 ## Design
 
-The motivation of this project was to deploy an interactive web application that allows users to easily pull visualizations and insights from the YouTube Trending Video dataset. I created algorithms to allow users to return data filtered by video category, date, and country with just a few clicks. This application can provide useful insights to marketing/advertising teams that are looking to target specific YouTube channels. The geographical filtering also allows useful insight into the differences in media consumption by category between different countries.
+The motivation of this project was to deploy an interactive web application via Streamlit that allows users to easily pull visualizations and insights from the YouTube Trending Video dataset. I created algorithms to allow users to return data filtered by video category, date, and country with just a few clicks. This application can provide useful insights to marketing/advertising teams that are looking to target specific YouTube channels. The geographical filtering also allows useful insight into the differences in media consumption by category between different countries.
 
 ## Data
 

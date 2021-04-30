@@ -28,6 +28,8 @@ I used Python libraries (sqlalchemy, pandas) to create an engine to read and que
 
 I implemented and deployed these algorithms into a web application built using Streamlit. The backend code behind the buttons and drop-down selections apply user inputs into the algorithms.
 
+I created a start date and end date selector to return filtered data based on the date range. One unit test for user inputs that I implemented was to return an error if the start date was after the end date selection.
+
 ## Tools
 
 -SQLite DB Browser for relational database storage
